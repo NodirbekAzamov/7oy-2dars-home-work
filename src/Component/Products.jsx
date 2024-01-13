@@ -15,7 +15,7 @@ export default function Products() {
 
 
     const handleInp = (e) => {
-        setUser_data(user.filter(item => item.category.toLowerCase().includes(e.target.value)))
+        setUser_data(user.filter(item => item.title.toLowerCase().includes(e.target.value.toLowerCase())))
     }
 
     return (
