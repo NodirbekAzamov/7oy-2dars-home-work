@@ -1,0 +1,117 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+body {
+    background-color: rgb(233, 236, 236);
+}
+
+
+
+.container {
+    .single_row2 {
+        border-radius: 5px;
+        margin: 20px 0;
+        padding: 50px 0;
+        background-color: rgb(255, 255, 255);
+
+        p span {
+            font-size: 18px;
+            font-family: sans-serif;
+            font-weight: 600;
+        }
+    }
+
+    .single_box1 {
+        .single_img {
+            width: 400px;
+            height: 400px;
+        }
+    }
+}
+
+// user.jsx
+
+.container {
+    .row {
+        .col-3 {
+            .user_card {
+                display: flex;
+                align-items: center;
+                flex-direction: column;
+                background-color: #fff;
+                height: 380px;
+
+                img {
+                    width: 150px;
+                    height: 150px;
+                    padding-top: 15px;
+                }
+            }
+
+
+        }
+    }
+}
+
+// App.jsx
+.app_menu {
+    position: relative;
+
+    .app_sidebar {
+        display: flex;
+
+        .sidebar {
+            width: 250px;
+            height: 100vh;
+            background-color: rgb(101, 223, 227);
+            position: sticky;
+            top: 0;
+            left: 0;
+        }
+
+        .app_header {
+            width: 100%;
+
+            .sigle_row1 {
+                padding: 20px 150px;
+                background-color: rgb(210, 210, 217);
+            }
+        }
+
+
+
+    }
+}
+
+// Menu
+.menu_box {
+    ul {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        li {
+            a {
+                display: inline-block;
+                text-decoration: none;
+                background-color: #fff;
+                width: 150px;
+                height: 35px;
+                border-radius: 5px;
+                text-align: center;
+                padding-top: 5px;
+            }
+
+            .link_btn {
+                background-color: crimson;
+                color: #fff;
+            }
+        }
+    }
+}
