@@ -34,7 +34,6 @@ export default function Products() {
                                 <h6 className='text-center pt-3  '>{item.title}</h6>
                                 <div className=' bg-warning my-3 rounded-2 w-100 px-4'>
                                     <h5 className=' fs-5 px-1'>Rating {item.rating.rate} <span className=' text-white'>&#9733;</span> </h5>
-                                    {/* <span>and</span> */}
                                     <h5 className=' fs-5 px-1'>Count: {item.rating.count}</h5>
                                 </div>
                                 <Link to={`/sengle_user/${item.id}`} className='btn btn-outline-primary mb-5 w-75 mt-2'>Havola</Link>
